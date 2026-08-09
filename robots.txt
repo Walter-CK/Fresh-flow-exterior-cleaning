@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Replace with the deployed sitemap URL before launch.
+# Sitemap: https://[REPLACE: your-domain]/sitemap.xml

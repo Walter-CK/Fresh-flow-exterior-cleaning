@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Replace the placeholder domain with the final live domain before launch. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://[REPLACE: your-domain]/</loc></url>
+  <url><loc>https://[REPLACE: your-domain]/services/</loc></url>
+  <url><loc>https://[REPLACE: your-domain]/gallery/</loc></url>
+  <url><loc>https://[REPLACE: your-domain]/about/</loc></url>
+  <url><loc>https://[REPLACE: your-domain]/contact/</loc></url>
+</urlset>
