@@ -19,7 +19,7 @@
   --blue-glow: rgba(79, 179, 240, .25);
   --shadow: 0 22px 55px rgba(11, 37, 64, .12);
   --radius: 18px;
-  --nav-h: 88px;
+  --nav-h: 76px;
   color-scheme: light;
 }
 
@@ -58,7 +58,7 @@ h3 { font-size: 1.35rem; font-weight: 800; letter-spacing: -.035em; }
 .site-nav.scrolled { background: rgba(255,255,255,.94); border-color: rgba(11,37,64,.08); box-shadow: 0 8px 28px rgba(11,37,64,.08); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); }
 .nav-inner { display: flex; align-items: center; justify-content: space-between; height: 100%; gap: 1.5rem; }
 .nav-logo, .footer-logo { display: inline-flex; align-items: center; color: var(--navy); }
-.nav-logo-image, .footer-logo-image { display: block; width: 204px; height: 72px; object-fit: cover; object-position: center 58%; }
+.nav-logo-image, .footer-logo-image { display: block; width: 118px; height: 62px; object-fit: contain; object-position: left center; }
 .nav-links { display: flex; align-items: center; gap: .2rem; }
 .nav-links > a { padding: .5rem .75rem; color: var(--navy); border-radius: 999px; font-size: .85rem; font-weight: 700; transition: color .2s, background .2s; }
 .nav-links > a:hover, .nav-links > a.active { color: var(--blue); background: var(--blue-dim); }
@@ -267,7 +267,7 @@ fieldset.form-field { grid-column: 1 / -1; border: 0; }
   .site-nav { background: rgba(255,255,255,.83); border-color: rgba(11,37,64,.06); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); }
   .nav-links { display: none; }
   .nav-hamburger { display: grid; flex: 0 0 42px; }
-  .nav-logo-image { width: 168px; height: 62px; object-position: center 58%; }
+  .nav-logo-image { width: 106px; height: 54px; object-fit: contain; object-position: left center; }
   .nav-links.open { position: fixed; top: var(--nav-h); right: 0; left: 0; display: flex; flex-direction: column; gap: .35rem; padding: .8rem 1rem 1.05rem; background: rgba(255,255,255,.98); border-bottom: 1px solid var(--line); box-shadow: 0 14px 28px rgba(11,37,64,.1); }
   .nav-links.open > a { display: flex; min-height: 46px; align-items: center; padding: .65rem .85rem; background: var(--mist); font-size: .92rem; }
   .nav-links.open .nav-cta { display: flex; justify-content: center; margin: .2rem 0 0; color: var(--white); background: linear-gradient(100deg,var(--blue),var(--sky)); }
